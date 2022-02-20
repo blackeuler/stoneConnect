@@ -7,7 +7,7 @@ This is a small project that a good friend gave me to get out of my burnout.
 
 Its dead simple : Connect 4 (cant screw this up) 
 
-Requirements: 
+## Requirements
 
 - [x] Establish Project (repo, readme, npm init,  .gitignore)
 - [x] Trivial Build

@@ -2,4 +2,7 @@ const bootstrap = () => {
   console.log("Testing TS");
 };
 
-export { bootstrap };
+const sum = (x: number, y: number) => {
+  return x + y;
+};
+export { sum, bootstrap };

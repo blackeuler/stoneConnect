@@ -1,15 +1,17 @@
 {
   "name": "stoneconnect",
-  "version": "0.1.0",
-  "description": "StoneConnect is a version of connect4 that is cooler",
+  "version": "0.2.0",
+  "description": "StoneConnect is a version of connect4 that is  WAY cooler",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf -f build $$ mkdir build",
+    "typescript": "tsc --build tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "blackeuler",
   "license": "MIT",
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
   }
 }

@@ -1,7 +1,7 @@
 import nodeResolve from "@rollup/plugin-node-resolve";
 
 const es6_module = {
-  input: "build/typescript/index.js",
+  input: "build/typescript/src/ts/index.js",
   output: {
     file: "build/rollup/index.js",
     format: "es",
@@ -12,7 +12,7 @@ const es6_module = {
 };
 
 const iife = {
-  input: "build/typescript/index.js",
+  input: "build/typescript/src/ts/index.js",
   output: {
     file: "build/rollup/index.iife.js",
     format: "iife",

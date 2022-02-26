@@ -7,7 +7,8 @@
     "clean": "rimraf -f build && mkdir build && cd build && mkdir terser && cd ..",
     "terser": "terser -o ./build/terser/index.iife.js ./build/rollup/index.iife.js",
     "rollup": "rollup -c",
-    "build": "npm run clean && npm run typescript && npm run rollup && npm run terser",
+    "html": "cp  ./src/html/* ./build/",
+    "build": "npm run clean && npm run typescript && npm run rollup && npm run terser && npm run html",
     "typescript": "tsc --build tsconfig.json",
     "test": "jest"
   },

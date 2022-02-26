@@ -12,7 +12,7 @@ Its dead simple : Connect 4 (cant screw this up)
 - [x] Establish Project (repo, readme, npm init,  .gitignore)
 - [x] Trivial Build
 - [x] Trivial Unit Testing
-- [ ] Github Actions
+- [x] Github Actions
 - [ ] Game Implementation
   - [ ] Headless Library
   - [ ] Frontend Renderer

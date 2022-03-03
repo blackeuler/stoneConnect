@@ -1,12 +1,8 @@
 import { Grid, firstAvailableRow, place_grid, create_grid } from "./grid";
 
-interface Red {}
-interface Black {}
-interface Empty {}
+export type Stone = { type: "red" } | { type: "black" };
 
-type Stone = Red | Black | Empty;
-
-interface StoneGrid {
+export interface StoneGrid {
   grid: Grid<Stone>;
 }
 

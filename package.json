@@ -11,7 +11,7 @@
     "html": "cp  ./src/html/* ./build/",
     "build": "npm run clean && npm run typescript && npm run rollup && npm run terser && npm run html && npm run sass",
     "typescript": "tsc --build tsconfig.json",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "author": "blackeuler",
   "license": "MIT",

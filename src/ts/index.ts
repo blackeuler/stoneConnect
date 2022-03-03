@@ -1,8 +1,17 @@
+import { makeTurn, startGame } from "./game";
 const bootstrap = () => {
   console.log("Testing TS");
+  console.log(getGameElement());
 };
 
-const sum = (x: number, y: number) => {
-  return x + y;
+const start = () => {
+  return startGame();
 };
-export { sum, bootstrap };
+
+const turn = makeTurn;
+
+const getGameElement = () => {
+  return document.getElementById("game");
+};
+
+export { start, turn, getGameElement, bootstrap };
